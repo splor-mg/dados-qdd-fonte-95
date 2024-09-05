@@ -1,0 +1,8 @@
+Package: dados-qdd-fonte-95
+Imports:
+    renv,
+    testthat (>= 3.0.0),
+    gh,
+    logger,
+    rlang
+Encoding: UTF-8

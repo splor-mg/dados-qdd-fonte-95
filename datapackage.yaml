@@ -1,0 +1,10 @@
+name: dados-qdd-fonte-95
+resources:
+  - name: base_qdd_fiscal_fonte_95
+    path: data-raw/base_qdd_fiscal_fonte_95.xlsx
+    format: xlsx
+    encoding: utf-8
+    dialect:
+      excel:
+        sheet: base_qdd_fiscal
+    schema: schemas/base_qdd_fiscal_fonte_95.yaml
