@@ -16,12 +16,12 @@ def build_package(descriptor: str = 'datapackage.yaml'):
             {
             "profile": "tabular-data-resource",
             "name": resource_name,
-            "path": f'data/{resource_name}.csv',
-            "format": "csv",
+            "path": f'data/{resource_name}.xlsx',
+            "format": "xlsx",
             "encoding": "utf-8",
             "schema": {"fields": [
                 {
-                'name': field.custom['target'] if field.custom.get('target') else as_identifier(field.name),
+                'name': field.name,
                 'type': field.type,
                 'source': field.name,
                 } for field in source.get_resource(resource_name).schema.fields                
@@ -34,7 +34,6 @@ def build_package(descriptor: str = 'datapackage.yaml'):
     target.custom['updated_at'] = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%S')
     
     for resource in target.resources:
-        resource.infer(stats=True)
         file_path = Path(f"logs/{resource.name}.json")
         if Path.exists(file_path):
             with open(file_path, 'r') as file:
