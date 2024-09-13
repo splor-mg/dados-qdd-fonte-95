@@ -1,104 +1,72 @@
 fields:
   - name: ANO
     type: integer
-    target: ano
   - name: COD_ORGAO
     type: integer
-    target: cod_orgao
   - name: ORGAO
     type: string
-    target: orgao
   - name: PODER
     type: integer
-    target: poder
   - name: SITUACAO
     type: integer
-    target: situacao
   - name: COD_UO
     type: integer
-    target: cod_uo
   - name: UO
     type: string
-    target: uo
   - name: CATEGORIA
     type: integer
-    target: categoria
   - name: GRUPO_DESPESA
     type: integer
-    target: grupo_despesa
   - name: MODALIDADE
     type: integer
-    target: modalidade
   - name: ELEMENTO_DESPESA
     type: integer
-    target: elemento_despesa
   - name: FONTE
     type: integer
-    target: fonte
   - name: IPU
     type: integer
-    target: ipu
   - name: SEQ_PROGTRAB
     type: integer
-    target: seq_progtrab
   - name: FUNCAO
     type: integer
-    target: funcao
   - name: SUB_FUNCAO
     type: integer
-    target: sub_funcao
   - name: PROGRAMA
     type: integer
-    target: programa
   - name: IDENT_PROJATIV
     type: integer
-    target: ident_projativ
   - name: PROJ_ATIV
     type: integer
-    target: proj_ativ
   - name: AÇÃO
     type: integer
-    target: acao
   - name: SUB_PROJETO
     type: integer
-    target: sub_projeto
   - name: VALOR UO (R$)
     type: number
     groupChar: '.'
     decimalchar: ','
-    target: valor_uo
   - name: VALOR SCPPO (R$)
     type: number
     groupChar: '.'
     decimalchar: ','
-    target: vlr_scppo
   - name: VALOR FINAL (R$)
     type: number
     groupChar: '.'
     decimalchar: ','
-    target: vlr_final
   - name: IAG
     type: integer
-    target: iag
   - name: NOME_ACAO
     type: string
-    target: nome_acao
   - name: NOME_PROGRAMA
     type: string
-    target: nome_programa
   - name: Acordo ou decisão
     type: string
-    target: acordo_ou_decisao
   - name: Anexo
     type: string
-    target: anexo
   - name: Instrumento de entrada
     type: integer
-    target: instrumento_de_entrada
   - name: Projetos do Acordo Judicial e outros detalhamentos
     type: string
-    target: projetos_do_acordo_judicial_e_outros_detalhamentos
   - name: ESPECIFICAÇÃO
     type: string
-    target: especificacao
 
