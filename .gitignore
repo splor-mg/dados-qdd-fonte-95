@@ -1,8 +1,6 @@
 venv/
 .Rhistory
 .Rproj.user
-data/
-data-raw/
 logs/
 datapackage.json
 __pycache__
