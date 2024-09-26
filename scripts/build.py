@@ -30,6 +30,11 @@ def build_package(descriptor: str = 'datapackage.yaml'):
         ]
     }
 
+    target_descriptor["resources"][0]["schema"]["fields"].append({
+        "name": "ESPECIFICAÇÃO",
+        "type": "string"
+        })
+
     target = Package.from_descriptor(target_descriptor)
     target.custom['updated_at'] = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%S')
     
