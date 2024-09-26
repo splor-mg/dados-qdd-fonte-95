@@ -59,14 +59,15 @@ fields:
     type: string
   - name: NOME_PROGRAMA
     type: string
-  - name: Acordo ou decisão
+  - name: Acordo ou Decisão
     type: string
   - name: Anexo
     type: string
   - name: Instrumento de entrada
-    type: integer
-  - name: Projetos do Acordo Judicial e outros detalhamentos
+    type: any
+  - name: Iniciativa
     type: string
-  - name: ESPECIFICAÇÃO
+  - name: Observações
     type: string
-
+  - name: NOVO NOME
+    type: string
