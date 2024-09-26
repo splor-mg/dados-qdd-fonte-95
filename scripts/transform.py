@@ -15,6 +15,8 @@ def transform_resource(resource_name: str, source_descriptor: str = 'datapackage
     table = resource.to_petl()
 
     table = etl.selecteq(table, 'FONTE', 95)
+    table = etl.addfield(table, 'ESPECIFICAÇÃO', 
+                         lambda row: f"{row['Acordo ou Decisão']} - {row['Anexo']} - {row['Instrumento de entrada']} - {row['Iniciativa']}")
 
     etl.toxlsx(table, F'data/{resource.name}.xlsx', sheet='base_qdd_fiscal')
 
