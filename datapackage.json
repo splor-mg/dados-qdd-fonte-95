@@ -149,9 +149,9 @@
             "source": "NOME_PROGRAMA"
           },
           {
-            "name": "Acordo ou decisão",
+            "name": "Acordo ou Decisão",
             "type": "string",
-            "source": "Acordo ou decisão"
+            "source": "Acordo ou Decisão"
           },
           {
             "name": "Anexo",
@@ -160,22 +160,31 @@
           },
           {
             "name": "Instrumento de entrada",
-            "type": "integer",
+            "type": "any",
             "source": "Instrumento de entrada"
           },
           {
-            "name": "Projetos do Acordo Judicial e outros detalhamentos",
+            "name": "Iniciativa",
             "type": "string",
-            "source": "Projetos do Acordo Judicial e outros detalhamentos"
+            "source": "Iniciativa"
+          },
+          {
+            "name": "Observações",
+            "type": "string",
+            "source": "Observações"
+          },
+          {
+            "name": "NOVO NOME",
+            "type": "string",
+            "source": "NOVO NOME"
           },
           {
             "name": "ESPECIFICAÇÃO",
-            "type": "string",
-            "source": "ESPECIFICAÇÃO"
+            "type": "string"
           }
         ]
       }
     }
   ],
-  "updated_at": "2024-09-13T15:08:29"
+  "updated_at": "2024-09-26T18:03:30"
 }
