@@ -67,7 +67,3 @@ fields:
     type: any
   - name: Iniciativa
     type: string
-  - name: Observações
-    type: string
-  - name: NOVO NOME
-    type: string
