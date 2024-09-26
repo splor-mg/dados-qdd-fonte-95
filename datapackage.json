@@ -169,16 +169,6 @@
             "source": "Iniciativa"
           },
           {
-            "name": "Observações",
-            "type": "string",
-            "source": "Observações"
-          },
-          {
-            "name": "NOVO NOME",
-            "type": "string",
-            "source": "NOVO NOME"
-          },
-          {
             "name": "ESPECIFICAÇÃO",
             "type": "string"
           }
@@ -186,5 +176,5 @@
       }
     }
   ],
-  "updated_at": "2024-09-26T18:03:30"
+  "updated_at": "2024-09-26T21:55:54"
 }
