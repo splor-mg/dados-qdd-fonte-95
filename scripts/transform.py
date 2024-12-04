@@ -14,7 +14,7 @@ def transform_resource(resource_name: str, source_descriptor: str = 'datapackage
     resource.transform(transform_pipeline)
     table = resource.to_petl()
 
-    table = etl.selecteq(table, 'FONTE', 95)
+    table = etl.select(table, lambda row: row.get('FONTE') in [80, 95])
     table = etl.addfield(table, 'ESPECIFICAÇÃO', 
                          lambda row: f"{row['Acordo ou Decisão']} - {row['Anexo']} - {row['Instrumento de entrada']} - {row['Iniciativa']}")
 
