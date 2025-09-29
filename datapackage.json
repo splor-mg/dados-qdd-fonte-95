@@ -84,9 +84,9 @@
             "source": "SEQ_PROGTRAB"
           },
           {
-            "name": "FUNCAO_COD",
+            "name": "FUNCAO",
             "type": "integer",
-            "source": "FUNCAO_COD"
+            "source": "FUNCAO"
           },
           {
             "name": "SUB_FUNCAO",
@@ -176,5 +176,5 @@
       }
     }
   ],
-  "updated_at": "2025-09-29T20:41:46"
+  "updated_at": "2025-09-29T20:58:27"
 }

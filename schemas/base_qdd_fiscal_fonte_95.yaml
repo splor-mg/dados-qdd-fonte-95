@@ -27,7 +27,7 @@ fields:
     type: integer
   - name: SEQ_PROGTRAB
     type: integer
-  - name: FUNCAO_COD
+  - name: FUNCAO
     type: integer
   - name: SUB_FUNCAO
     type: integer
